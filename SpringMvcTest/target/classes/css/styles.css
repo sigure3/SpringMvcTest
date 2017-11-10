@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+body {
+  background: #bdc3c7;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial,sans-serif;
+}
+
+.slot {
+  width: 300px;
+  padding: 20px;
+  background: #ecf0f1;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  margin: 15px auto;
+  overflow: hidden;
+}
+
+.panel {
+  float: left;
+  margin-top: 40px;
+}
+
+.panel + .panel {
+  margin-left: 15px;
+}
+
+.panel img {
+  margin-bottom: 5px;
+  user-select: none;
+}
+
+.stop {
+  cursor: pointer;
+  width: 90px;
+  height: 20px;
+  background: #ef454a;
+  box-shadow: 0 3px 0 #d1483e;
+  border-radius: 20px;
+  text-align: center;
+  user-select: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#result {
+  border-bottom: 10px;
+  margin-left: 20px;
+  text-align: center;
+  font-weight: bold;
+  height: 25px;
+  font-size: 20px;
+  background: #ddd;
+}
+
+#spin {
+  cursor: pointer;
+  width: 90px;
+  height: 18px;
+  background: #ef454a;
+  box-shadow: 0 3px 0 #d1483e;
+  border-radius: 20px;
+  text-align:center;
+  user-select: none;
+  margin-top: 200px;
+}
+
+#left {
+
+}
+
+#medal {
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+  text-align: right;
+  user-select: none;
+  background: #dd986a;
+  font-size: 50px;
+}
+
+.medalNone {
+  color: red;
+}
+
+.dividenTable {
+  width: 230px;
+  padding: 20px;
+  background: #ecf0f1;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  margin: 15px auto;
+  overflow: hidden;
+}
+
+.slot + .dividenTable {
+  float: left;
+  margin-left: 100px;
+  margin-top: -365px;
+}
+
+.dividen {
+  vertical-align:middle;
+  text-align: right;
+}
+
+.dividenTable p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  /*display: table-cell;
+  vertical-align: middle;*/
+
+}
