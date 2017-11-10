@@ -5,9 +5,9 @@
   var center = document.getElementById('center');
   var right = document.getElementById('right');
 
-  var bell = 'img/bell.png'; //count = 1
-  var seven = 'img/seven.png'; //count = 2
-  var cherry = 'img/cherry.png'; //count = 0
+  var bell = 'resources/img/bell.png'; //count = 1
+  var seven = 'resources/img/seven.png'; //count = 2
+  var cherry = 'resources/img/cherry.png'; //count = 0
   var leftCount = 0;
   var centerCount = 0;
   var rightCount = 0;
